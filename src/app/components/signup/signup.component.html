@@ -1,9 +1,9 @@
-<section class="signup container">
-    <h1 class="entry-title"><span>Create Account</span></h1><hr>
+<section class="my-form-container">
+  <div class="container-title">signup.sh</div>
     <form class="form-horizontal" method="post" name="signup" id="signup">
       <div class="form-group">
         <label class="control-label col-sm-3">Email<span class="text-danger">*</span></label>
-        <div class="col-md-8 col-sm-9">
+        <div class="col-md-8">
           <div class="input-group">
             <span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span>
             <input type="email" class="form-control" name="emailid" id="emailid" placeholder="Type email"
@@ -13,7 +13,7 @@
       </div>
       <div class="form-group">
         <label class="control-label col-sm-3">Password<span class="text-danger">*</span></label>
-        <div class="col-md-5 col-sm-8">
+        <div class="col-md-8">
           <div class="input-group">
             <span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
             <input type="password" class="form-control" name="password" id="password"
@@ -23,7 +23,7 @@
       </div>
       <div class="form-group">
         <label class="control-label col-sm-3">Re-password <span class="text-danger">*</span></label>
-        <div class="col-md-5 col-sm-8">
+        <div class="col-md-8">
           <div class="input-group">
             <span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
             <input type="password" class="form-control" name="cpassword" id="cpassword"
@@ -33,14 +33,14 @@
       </div>
       <div class="form-group">
         <label class="control-label col-sm-3">Name <span class="text-danger">*</span></label>
-        <div class="col-md-8 col-sm-9">
+        <div class="col-md-8">
           <input type="text" class="form-control" name="mem_name" id="mem_name" placeholder="Type name" value=""
                  [(ngModel)]="credentials.name">
         </div>
       </div>
       <div class="form-group">
         <div class="col-xs-offset-3 col-xs-10">
-          <button (click)="create()" name="Submit" type="submit" class="btn btn-primary">Sing Up
+          <button (click)="create()" name="Submit" type="submit" class="btn">Sign up
           </button>
         </div>
     </div>

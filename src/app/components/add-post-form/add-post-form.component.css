@@ -21,6 +21,7 @@
 .form-group input {
     border: 2px solid #e2a9f1;
     border-radius: 0;
+    width: 60%;
     color: #c377d6;
 
 }

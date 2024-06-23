@@ -1,0 +1,62 @@
+.my-form-container {
+    font-family: "Chakra Petch", sans-serif;
+    padding: 20px 25px;
+     
+    background-color: #fbeeff;
+    border: 3px solid #e2a9f1;
+    color: #c377d6;
+    box-shadow: 10px 10px 40px #e2a9f1;
+    
+    width: 512px;
+    margin: auto;
+    margin-top: 100px;
+    
+    animation: slideIn 0.5s ease-in-out;
+}
+
+.form-group {
+    margin-bottom: 10px;
+}
+
+.form-group input {
+    border: 2px solid #e2a9f1;
+    border-radius: 0;
+    width: 60%;
+    color: #c377d6;
+}
+
+.form-group input::placeholder {
+    color: #c377d6;
+}
+
+.container-title {
+    position: absolute;
+    transform: translate(-28px, -60px);
+    border: 3px solid #e2a9f1;
+    width: fit-content;
+    padding: 5px 25px;
+    background-color: #e2a9f1;
+    color: #fbeeff;
+    font-weight: 700;
+    user-select: none;
+}
+
+.btn {
+    border: 2px solid #e2a9f1;
+    border-radius: 0;
+    color: #c377d6;
+    transition: none;
+}
+
+.btn:hover {
+    color: #fbeeff;
+    background-color: #e2a9f1;
+    transition: none;
+}
+
+@keyframes slideIn {
+    0% {
+        opacity: 0;
+        transform: translateX(25px);
+    }
+}

@@ -1,0 +1,56 @@
+.navbar {
+    font-family: "Chakra Petch", sans-serif;
+    padding: 0;
+    height: 48px;
+    background-color: #004444;
+    border-bottom: 3px solid #e2a9f1;
+}
+
+.navbar ul {
+    margin: 0;
+    padding: 0;
+    height: 48px;
+    display: flex;
+    flex-direction: row;
+    border-right: 4px solid #e2a9f1;
+    
+    border-bottom: 3px solid #e2a9f1;
+}
+
+.navbar .right-menu {
+    border-right: none;
+    border-top-right-radius: 0px;
+    border-left: 4px solid #e2a9f1;
+    border-top-left-radius: 7px;
+}
+
+.navbar li {
+    background-color: #e2a9f1;
+    list-style-type: none;
+    height: 100%;
+    display: block;
+    border-left: 2px solid #c377d6;
+}
+
+.navbar .right-menu li {
+    border-left: none;
+    border-right: 2px solid #c377d6;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #fbeeff;
+    font-weight: 700;
+    display: block;
+    height: 100%;
+    width: 100%;
+    padding: 10px 20px;
+}
+
+.navbar li:hover {
+    background-color: #fbeeff;
+}
+
+.navbar li:hover a {
+    color: #c377d6;
+}

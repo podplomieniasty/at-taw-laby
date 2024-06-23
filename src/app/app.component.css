@@ -1,3 +1,17 @@
 button {
   margin: 10px;
 }
+.img-container {
+  background-image: url('../assets/vapor.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  filter: blur(5px) brightness(60%);
+  border: 3px solid #e2a9f1;
+  border-top: none;
+}
