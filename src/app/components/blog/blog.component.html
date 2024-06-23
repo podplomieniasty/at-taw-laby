@@ -1,0 +1,8 @@
+<div *ngFor="let item of items$ | filter:filterText">
+  <app-blog-item
+    [image]="item.image"
+    [text]="item.text"
+    [id]="item._id">
+  </app-blog-item>
+</div>
+
